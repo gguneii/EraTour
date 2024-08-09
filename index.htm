@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eratour</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#"><img class="main-logo" src="img/logo.png" alt="header_logo"></a>
+                <ul id="menu">
+                    <i onclick="show()" class="fa-solid fa-x delete"></i>
+                    <a id="logo" href=""><img src="img/logo.png" alt="header_logo"></a>
+                    <li><a onclick="ac(this)" href="#">Şirkət
+                            <svg viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="mainMenuItemArrow_SPprM">
+                                <path
+                                    d="M1.00044 0.899902H7.10044V6.9999H5.90044V2.94843L1.4247 7.42417L0.576172 6.57564L5.05191 2.0999H1.00044V0.899902Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <ul class="mobile-dropdown">
+                            <li><a href="#">Haqqimizda</a></li>
+                            <li><a href="#">Sertifikatlar</a></li>
+                            <li><a href="#">Karyera</a></li>
+                        </ul>
+                    </li>
+                    <li><a onclick="ac(this)" href="#">Müştəri rəyləri
+                            <svg viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="mainMenuItemArrow_SPprM">
+                                <path
+                                    d="M1.00044 0.899902H7.10044V6.9999H5.90044V2.94843L1.4247 7.42417L0.576172 6.57564L5.05191 2.0999H1.00044V0.899902Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <ul class="mobile-dropdown">
+                            <li><a href="#">Musteri Fikirleri</a></li>
+                            <li><a href="#">Seyahet Goruntuleri</a></li>
+                        </ul>
+                    </li>
+                    <li><a onclick="ac(this)" href="#">Turlar
+                            <svg viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="mainMenuItemArrow_SPprM">
+                                <path
+                                    d="M1.00044 0.899902H7.10044V6.9999H5.90044V2.94843L1.4247 7.42417L0.576172 6.57564L5.05191 2.0999H1.00044V0.899902Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <ul class="mobile-dropdown">
+                            <li><a href="#">Daxili Turlar</a></li>
+                            <li><a href="#">Xarici Turlar</a></li>
+                            <li><a href="#">Infoturlar</a></li>
+                            <li><a href="#">Insentiv Turlar</a></li>
+                            <li><a href="#">Qrup Turlar</a></li>
+                            <li><a href="#">{ekskursilayar}</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Xidmətlər</a></li>
+                    <li><a onclick="ac(this)" href="#">Əməkdaşlıq
+                            <svg viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="mainMenuItemArrow_SPprM">
+                                <path
+                                    d="M1.00044 0.899902H7.10044V6.9999H5.90044V2.94843L1.4247 7.42417L0.576172 6.57564L5.05191 2.0999H1.00044V0.899902Z">
+                                </path>
+                            </svg>
+                        </a>
+                        <ul class="mobile-dropdown">
+                            <li><a href="#">Avia Sirketler</a></li>
+                            <li><a href="#">Korporativ Emekdasliq</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Azərbaycanı Kəşf Et</a></li>
+                    <li><a href="#">Əlaqə</a></li>
+                    <li><button>Qiymet teklifi al</button></li>
+                    <div class="icons">
+                        <a href="https://www.facebook.com/people/ERA-TUR/100095147172935/?mibextid=ZbWKwL">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/eraatur?igsh=MTdmczFra2NlOXg2OA%3D%3D">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@ERATUR">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/profile/in/era-tur-241054278/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <ul class="langs">
+                        <li><a href="https://eratur.az/">
+                                <img src="img/az.png" alt="Azerbaijan">
+                                az
+                            </a></li>
+                        <li><a href="https://eratur.az/en/">
+                                <img src="img/ukFlag.png" alt="English">
+                                en
+                            </a></li>
+                        <li><a href="https://eratur.az/ru/">
+                                <img src="img/russianflag.png" alt="Russian">
+                                ru
+                            </a></li>
+
+                    </ul>
+                </ul>
+                <ul id="desktop-menu">
+                    <li><a href="">Sirket
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Haqqimizda</a></li>
+                            <li><a href="#">Sertifikatlar</a></li>
+                            <li><a href="#">Karyera</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Musteri reyleri</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Musteri Fikirleri</a></li>
+                            <li><a href="#">Seyahet Goruntuleri</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Turlar</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Daxili Turlar</a></li>
+                            <li><a href="#">Xarici Turlar</a></li>
+                            <li><a href="#">Infoturlar</a></li>
+                            <li><a href="#">Insentiv Turlar</a></li>
+                            <li><a href="#">Qrup Turlar</a></li>
+                            <li><a href="#">Ekskursilayar</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Xidmetler</a></li>
+                    <li><a href="#">Emekdasliq</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Avia Sirketler</a></li>
+                            <li><a href="#">Korporativ Emekdasliq</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Azerbaycani kesf et</a></li>
+                    <li><a href="#">Elaqe</a></li>
+                    <li class="langs">
+                        <a href="https://eratur.az/">
+                            <img src="img/az.png" alt="Azerbaijan">
+                            AZ
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="https://eratur.az/en/">
+                                    <img src="img/ukFlag.png" alt="English">
+                                    EN
+                                </a></li>
+                            <li><a href="https://eratur.az/ru/">
+                                    <img src="img/russianflag.png" alt="Russian">
+                                    RU
+                                </a></li>
+                        </ul>
+
+                    </li>
+                    <li class="tel">
+                        <a href="tel:+994555970514">
+                            <img src="img/svg.svg" alt="tel">
+                            (+99455) 597-05-14
+                        </a>
+                    </li>
+                </ul>
+                <div class="hamburger-menu">
+                    <i onclick="show()" class="fa-solid fa-bars"></i>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <main></main>
+
+    <script>
+        const menu = document.getElementById('menu')
+        function show() {
+            menu.classList.toggle("left")
+        }
+        function ac(li) {
+            const dropdown = li.nextElementSibling;
+            dropdown.classList.toggle('d-block');
+            li.querySelector('svg').classList.toggle('rotate');
+        }
+
+    </script>
+</body>
+
+</html>
