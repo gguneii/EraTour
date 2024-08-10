@@ -28,6 +28,7 @@ header {
   background-position: center;
   height: 100vh;
   vertical-align: baseline;
+  overflow: hidden;
 }
 
 nav {
